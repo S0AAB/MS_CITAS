@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Santiago Ah\\source\\repos\\MS_CITAS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3AC28D8-F654-49F7-BCFB-87924F4C6BFA}|MS_CITAS\\MS_CITAS.csproj|c:\\users\\santiago ah\\source\\repos\\ms_citas\\ms_citas\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3AC28D8-F654-49F7-BCFB-87924F4C6BFA}|MS_CITAS\\MS_CITAS.csproj|solutionrelative:ms_citas\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Santiago Ah\\source\\repos\\MS_CITAS\\MS_CITAS\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "MS_CITAS\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\Santiago Ah\\source\\repos\\MS_CITAS\\MS_CITAS\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "MS_CITAS\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T19:57:00.29Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
