@@ -9,9 +9,7 @@ namespace MS_CITAS
     {
         public static void Register(HttpConfiguration config)
         {
-            // Configuración y servicios de Web API
-
-            // Rutas de Web API
+          
             config.MapHttpAttributeRoutes();
 
             config.Routes.MapHttpRoute(
