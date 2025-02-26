@@ -212,3 +212,13 @@ C:\Users\santiago.ahumada\Source\Repos\MS_CITAS\MS_CITAS\bin\System.Runtime.Comp
 C:\Users\santiago.ahumada\Source\Repos\MS_CITAS\MS_CITAS\bin\System.Threading.Tasks.Extensions.xml
 C:\Users\santiago.ahumada\Source\Repos\MS_CITAS\MS_CITAS\bin\Swashbuckle.Core.dll
 C:\Users\santiago.ahumada\Source\Repos\MS_CITAS\MS_CITAS\bin\WebActivatorEx.dll
+C:\Users\santiago.ahumada\Source\Repos\MS_CITAS\MS_CITAS\bin\RestSharp.dll
+C:\Users\santiago.ahumada\Source\Repos\MS_CITAS\MS_CITAS\bin\System.IO.Pipelines.dll
+C:\Users\santiago.ahumada\Source\Repos\MS_CITAS\MS_CITAS\bin\System.Text.Encodings.Web.dll
+C:\Users\santiago.ahumada\Source\Repos\MS_CITAS\MS_CITAS\bin\System.Text.Json.dll
+C:\Users\santiago.ahumada\Source\Repos\MS_CITAS\MS_CITAS\bin\System.ValueTuple.dll
+C:\Users\santiago.ahumada\Source\Repos\MS_CITAS\MS_CITAS\bin\RestSharp.xml
+C:\Users\santiago.ahumada\Source\Repos\MS_CITAS\MS_CITAS\bin\System.IO.Pipelines.xml
+C:\Users\santiago.ahumada\Source\Repos\MS_CITAS\MS_CITAS\bin\System.Text.Encodings.Web.xml
+C:\Users\santiago.ahumada\Source\Repos\MS_CITAS\MS_CITAS\bin\System.Text.Json.xml
+C:\Users\santiago.ahumada\Source\Repos\MS_CITAS\MS_CITAS\bin\System.ValueTuple.xml

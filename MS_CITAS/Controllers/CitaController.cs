@@ -19,14 +19,16 @@ namespace MS_CITAS.Controllers
         }
 
         // GET: api/Citas
+        [HttpGet]
         public IEnumerable<Citas> GetCitas()
         {
             return _citaService.GetAll();
            
         }
 
+
         // GET: api/Citas/{id}
-        [ResponseType(typeof(Citas))]
+        [HttpGet]
         public IHttpActionResult GetCitas(int id)
         {
             var cita = _citaService.GetById(id);
@@ -37,7 +39,7 @@ namespace MS_CITAS.Controllers
         }
 
         // POST: api/Citas
-        [ResponseType(typeof(Citas))]
+        [HttpPost]
         public async Task<IHttpActionResult> PostCita(Citas nuevaCita)
         {
             if (!ModelState.IsValid)
@@ -53,8 +55,7 @@ namespace MS_CITAS.Controllers
         }
 
         // PUT: api/Citas/{id}
-        [ResponseType(typeof(void))]
-
+        [HttpPut]
         public IHttpActionResult PutCitas(int id, Citas citaActualizada)
         {   
             if (!ModelState.IsValid)
@@ -69,7 +70,7 @@ namespace MS_CITAS.Controllers
         }
 
         // DELETE: api/citas/{id}
-        [ResponseType(typeof(Citas))]
+        [HttpDelete]
         public IHttpActionResult DeleteCitas(int id)
         {
             bool eliminado = _citaService.Delete(id);

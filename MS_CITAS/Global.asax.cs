@@ -14,11 +14,10 @@ namespace MS_CITAS
     {
         protected void Application_Start()
         {
-            AreaRegistration.RegisterAllAreas();
+        
             GlobalConfiguration.Configure(WebApiConfig.Register);
             AutofacConfig.Register();
-            FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
-            RouteConfig.RegisterRoutes(RouteTable.Routes);
+        
           
         }
     }

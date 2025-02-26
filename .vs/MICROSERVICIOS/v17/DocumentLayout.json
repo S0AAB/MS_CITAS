@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\santiago.ahumada\\source\\repos\\MS_CITAS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3AC28D8-F654-49F7-BCFB-87924F4C6BFA}|MS_CITAS\\MS_CITAS.csproj|c:\\users\\santiago.ahumada\\source\\repos\\ms_citas\\ms_citas\\repositories\\citarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3AC28D8-F654-49F7-BCFB-87924F4C6BFA}|MS_CITAS\\MS_CITAS.csproj|solutionrelative:ms_citas\\repositories\\citarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3AC28D8-F654-49F7-BCFB-87924F4C6BFA}|MS_CITAS\\MS_CITAS.csproj|c:\\users\\santiago.ahumada\\source\\repos\\ms_citas\\ms_citas\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3AC28D8-F654-49F7-BCFB-87924F4C6BFA}|MS_CITAS\\MS_CITAS.csproj|solutionrelative:ms_citas\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B89BF9C-2BBE-4AF6-B9BE-273D3064F21D}|..\\MS_PERSONA\\MS_PERSONA\\MS_PERSONA.csproj|c:\\users\\santiago.ahumada\\source\\repos\\ms_persona\\ms_persona\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B89BF9C-2BBE-4AF6-B9BE-273D3064F21D}|..\\MS_PERSONA\\MS_PERSONA\\MS_PERSONA.csproj|c:\\users\\santiago.ahumada\\source\\repos\\ms_persona\\ms_persona\\controllers\\personascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3AC28D8-F654-49F7-BCFB-87924F4C6BFA}|MS_CITAS\\MS_CITAS.csproj|c:\\users\\santiago.ahumada\\source\\repos\\ms_citas\\ms_citas\\services\\personaserviceapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3AC28D8-F654-49F7-BCFB-87924F4C6BFA}|MS_CITAS\\MS_CITAS.csproj|solutionrelative:ms_citas\\services\\personaserviceapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CitaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\santiago.ahumada\\source\\repos\\MS_CITAS\\MS_CITAS\\Repositories\\CitaRepository.cs",
+              "RelativeDocumentMoniker": "MS_CITAS\\Repositories\\CitaRepository.cs",
+              "ToolTip": "C:\\Users\\santiago.ahumada\\source\\repos\\MS_CITAS\\MS_CITAS\\Repositories\\CitaRepository.cs",
+              "RelativeToolTip": "MS_CITAS\\Repositories\\CitaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T15:57:58.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\santiago.ahumada\\source\\repos\\MS_CITAS\\MS_CITAS\\Global.asax.cs",
+              "RelativeDocumentMoniker": "MS_CITAS\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\santiago.ahumada\\source\\repos\\MS_CITAS\\MS_CITAS\\Global.asax.cs",
+              "RelativeToolTip": "MS_CITAS\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T15:56:52.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\santiago.ahumada\\source\\repos\\MS_PERSONA\\MS_PERSONA\\Global.asax.cs",
+              "RelativeDocumentMoniker": "..\\MS_PERSONA\\MS_PERSONA\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\santiago.ahumada\\source\\repos\\MS_PERSONA\\MS_PERSONA\\Global.asax.cs",
+              "RelativeToolTip": "..\\MS_PERSONA\\MS_PERSONA\\Global.asax.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvw8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T15:55:00.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PersonasController.cs",
+              "DocumentMoniker": "C:\\Users\\santiago.ahumada\\source\\repos\\MS_PERSONA\\MS_PERSONA\\Controllers\\PersonasController.cs",
+              "RelativeDocumentMoniker": "..\\MS_PERSONA\\MS_PERSONA\\Controllers\\PersonasController.cs",
+              "ToolTip": "C:\\Users\\santiago.ahumada\\source\\repos\\MS_PERSONA\\MS_PERSONA\\Controllers\\PersonasController.cs",
+              "RelativeToolTip": "..\\MS_PERSONA\\MS_PERSONA\\Controllers\\PersonasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T15:53:22.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PersonaServiceAPI.cs",
+              "DocumentMoniker": "C:\\Users\\santiago.ahumada\\source\\repos\\MS_CITAS\\MS_CITAS\\Services\\PersonaServiceAPI.cs",
+              "RelativeDocumentMoniker": "MS_CITAS\\Services\\PersonaServiceAPI.cs",
+              "ToolTip": "C:\\Users\\santiago.ahumada\\source\\repos\\MS_CITAS\\MS_CITAS\\Services\\PersonaServiceAPI.cs",
+              "RelativeToolTip": "MS_CITAS\\Services\\PersonaServiceAPI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T15:49:26.212Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,36 +1,34 @@
 ﻿using System;
-using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using RestSharp;
 
 public class PersonaServiceAPI
 {
-    private readonly HttpClient _httpClient;
-    private readonly string _baseUrl = "https://localhost:44345/api/Personas"; 
+    private readonly RestClient _client;
+    private readonly string _baseUrl = "https://localhost:44345/api/Personas";
 
     public PersonaServiceAPI()
     {
-        _httpClient = new HttpClient();
+        _client = new RestClient(_baseUrl);
     }
 
     public async Task<dynamic> ObtenerPersona(int personaId)
     {
-        var url = $"{_baseUrl}/{personaId}";
+        var request = new RestRequest($"/{personaId}", Method.Get);
 
         try
         {
-            HttpResponseMessage response = await _httpClient.GetAsync(url);
+            RestResponse response = await _client.ExecuteAsync(request);
 
-            if (!response.IsSuccessStatusCode)
-                return null; 
+            if (!response.IsSuccessful)
+                return null;
 
-            string jsonResponse = await response.Content.ReadAsStringAsync();
-
-            return JsonConvert.DeserializeObject<dynamic>(jsonResponse);
+            return JsonConvert.DeserializeObject<dynamic>(response.Content);
         }
         catch (Exception)
         {
-            return null; 
+            return null;
         }
     }
 }

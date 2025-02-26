@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "MS_CITAS\\MS_CITAS.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\MS_PERSONA\\MS_PERSONA\\MS_PERSONA.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
