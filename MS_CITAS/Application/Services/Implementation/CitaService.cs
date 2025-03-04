@@ -17,7 +17,7 @@ namespace MS_CITAS.Services
         private readonly PersonaServiceAPI _personaServiceAPI;
         private readonly EmisorMQ _emisorMQ;
         private readonly IMapper _mapper;
-
+        private List<string> estados = new List<string> { "Finalizada", "Pendiente", "En proceso" };
         // Inyección de dependencias
         public CitaService(ICitaRepository citaRepository, PersonaServiceAPI personaServiceAPI, EmisorMQ emisorMQ, IMapper mapper)
         {
@@ -47,6 +47,10 @@ namespace MS_CITAS.Services
             if (!await ValidarPersona(citaDto.PacienteId, citaDto.MedicoId))
                 return false;
 
+            
+            if (!estados.Contains(citaDto.Estado))
+                return false;
+
             var cita = _mapper.Map<Citas>(citaDto);
             _citaRepository.Add(cita);
             return true;
@@ -59,10 +63,16 @@ namespace MS_CITAS.Services
 
             if (!await ValidarPersona(citaDto.PacienteId, citaDto.MedicoId))
                 return false;
+            //Verificacion estado
+            if (!estados.Contains(citaDto.Estado))
+                return false;
 
             var citaExistente = _citaRepository.GetById(id);
+            var idAntiguo = citaExistente.Id;
             _mapper.Map(citaDto, citaExistente);  // Mapear DTO sobre la entidad existente
-
+                                                  //Mantener id antiguo
+            Debug.WriteLine(JsonConvert.SerializeObject(citaExistente));
+            citaExistente.Id = idAntiguo;
             _citaRepository.Update(citaExistente);
             return true;
         }

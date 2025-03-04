@@ -21,7 +21,7 @@ namespace MS_CITAS.Application.Services.Implementation
             {
                 await channel.ExchangeDeclareAsync(ExchangeName, ExchangeType.Fanout, durable: true);
                 //durable: Sobrevivi al reinicio del brocker
-                //exclusie: Pdora ser utilizada por otras conexiones
+                //exclusie: Podra ser utilizada por otras conexiones
                 //autoDelete:La borra se borrara cuando el consumidor este abajo
 
                 await channel.QueueDeclareAsync(QueueName, durable: true, exclusive: false, autoDelete: false, arguments: null);

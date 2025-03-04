@@ -69,7 +69,7 @@ namespace MS_CITAS.Controllers
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
-
+           
             if (await _citaService.Update(id, citaActualizada))
             {
                 return Ok("Cita actualizada exitosamente.");
